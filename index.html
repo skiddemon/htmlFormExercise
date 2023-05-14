@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--Create a new project on your computer that includes an index.html. In the file, write valid and semantic HTML that 
+    includes a form that has the following fields:
+        Email
+        Password
+        Github Username
+        Radio buttons with the following options: Enterprise, Pro, Free
+        A checkbox with the words "Remember Me" next to it.
+Push your code up to Github and then paste the URL to your repository below.-->
+
+<html>
+    <div>
+        <label for="email">Email: </label>
+        <input type="email" id="email" required>
+    </div>
+    <div>
+        <label for="password">Password: </label>
+        <input type="password" id="password" required>
+    </div>
+    <div>
+        <label for="github">Github Username: </label>
+        <input type="text" id="github" required>
+    </div>
+    <div>
+            <div>
+                <input type="radio" id="enterprise" name="level">
+                <label for="enterprise">Enterprise</label>
+            </div>
+            <div>
+                <input type="radio" id="pro" name="level">
+                <label for="pro">Pro</label>
+            </div>
+            <div>
+                <input type="radio" id="free" name="level">
+                <label for="free">Free</label>
+            </div>
+    </div>
+    <div>
+        <label id="remember">Remember Me: </label>
+        <input type="checkbox" id="remember">
+    </div>
+    <div>
+        <input type="submit">
+    </div>
+</html>
